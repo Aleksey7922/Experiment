@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<conio.h>
 
 using namespace std;
@@ -115,35 +115,35 @@ void main()
 	int pen = 5;
 	double cost = 15.45;
 	double res = (price_not * note) + (price_pen * pen);
-	cout << (int)res << "\t" << "ðóá";
+	cout << (int)res << "\t" << "Ñ€ÑƒÐ±";
 #endif // TASK ON DATA TYPES
 
 #ifdef CONVER_SION
 	double digit;
-	cout << "Ââåäèòå äðîáíîå ÷èñëî: "; cin >> digit;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ñ€Ð¾Ð±Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> digit;
 	int many = digit;
-	//cout << many << "ðóá";
+	//cout << many << "Ñ€ÑƒÐ±";
 	int cop = (digit - many) * 100;
-	cout << many << "ðóá" << "\t" << cop << "êîï";
+	cout << many << "Ñ€ÑƒÐ±" << "\t" << cop << "ÐºÐ¾Ð¿";
 #endif // CONVER_SION
 
 #ifdef TASK
 	double pr_not, pr_pen;
 	int quan_not, quan_pen;
-	cout << "Öåíà òåòðàäè: "; cin >> pr_not;
-	cout << "Êîëè÷åñòâî òåòðàäåé: "; cin >> quan_not;
-	cout << "Öåíà êàðàíäàøåé: "; cin >> pr_pen;
-	cout << "Êîëè÷åñòâî êàðàíäàøåé: "; cin >> quan_pen;
+	cout << "Ð¦ÐµÐ½Ð° Ñ‚ÐµÑ‚Ñ€Ð°Ð´Ð¸: "; cin >> pr_not;
+	cout << "ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ñ‚ÐµÑ‚Ñ€Ð°Ð´ÐµÐ¹: "; cin >> quan_not;
+	cout << "Ð¦ÐµÐ½Ð° ÐºÐ°Ñ€Ð°Ð½Ð´Ð°ÑˆÐµÐ¹: "; cin >> pr_pen;
+	cout << "ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÐºÐ°Ñ€Ð°Ð½Ð´Ð°ÑˆÐµÐ¹: "; cin >> quan_pen;
 	double res = (pr_not * quan_not) + (pr_pen * quan_pen);
 	int many = res;
 	int cop = (res - many) * 100;
-	cout << "Ñòîèìîñòü ïîêóïêè: " << many << "ðóá" << " " << cop << "êîï";
+	cout << "Ð¡Ñ‚Ð¾Ð¸Ð¼Ð¾ÑÑ‚ÑŒ Ð¿Ð¾ÐºÑƒÐ¿ÐºÐ¸: " << many << "Ñ€ÑƒÐ±" << " " << cop << "ÐºÐ¾Ð¿";
 #endif // TASK
 
 #ifdef KALCULYTOR
 	int a, b, res;
 
-	cout << "Ââåäèòå âûðàæåíèå: "; cin >> a >> b;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‹Ñ€Ð°Ð¶ÐµÐ½Ð¸Ðµ: "; cin >> a >> b;
 	res = a + b;
 	cout << res;
 
@@ -153,7 +153,7 @@ void main()
 
 	double a, b;
 	char s;
-	cout << "Ââåäèòå çíà÷åíèÿ âûðàæåíèÿ: "; cin >> a >> s >> b;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ Ð²Ñ‹Ñ€Ð°Ð¶ÐµÐ½Ð¸Ñ: "; cin >> a >> s >> b;
 	if (s == '+')
 	{
 		cout << a << "+" << b << "=" << a + b << endl;
@@ -180,7 +180,7 @@ void main()
 #ifdef CALC_SWICH
 	double a, b, result;
 	char s;
-	cout << "Ââåäèòå çíà÷åíèå âûðàæåíèÿ: "; cin >> a >> s >> b;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð²Ñ‹Ñ€Ð°Ð¶ÐµÐ½Ð¸Ñ: "; cin >> a >> s >> b;
 	switch (s)
 	{
 	case '+':result = a + b; cout << a << "+" << b << "=" << result << endl; break;
@@ -193,27 +193,27 @@ void main()
 
 #ifdef EVEN_NUMBER
 	int a;
-	cout << "Ââåäèòå ÷èñëî: "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> a;
 	if (a % 2 == 0)
 	{
-		cout << a << " " << "÷åòíîå ÷èñëî.";
+		cout << a << " " << "Ñ‡ÐµÑ‚Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾.";
 	}
 	if (a % 2 != 0)
 	{
-		cout << a << " " << "íå÷åòíîå ÷èñëî.";
+		cout << a << " " << "Ð½ÐµÑ‡ÐµÑ‚Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾.";
 	}
 #endif // EVEN_NUMBER
 
 #ifdef ODD_NUMBER
 
 	int a;
-	cout << "Ââåäèòå ÷èñëî: "; cin >> a;
-	(a % 2 == 0) ? cout << a << " " << "÷åòíîå ÷èñëî." : cout << a << " " << "íå÷åòíîå ÷èñëî.";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> a;
+	(a % 2 == 0) ? cout << a << " " << "Ñ‡ÐµÑ‚Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾." : cout << a << " " << "Ð½ÐµÑ‡ÐµÑ‚Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾.";
 #endif // ODD_NUMBER
 
 #ifdef NATUR_NUMBER
 	int a = 0, quant = 0, sum = 0;
-	cout << "Ââåäèòå íàòóðàëüíîå ÷èñëî îò 0 äî 100: "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð°Ñ‚ÑƒÑ€Ð°Ð»ÑŒÐ½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð¾Ñ‚ 0 Ð´Ð¾ 100: "; cin >> a;
 	while (quant <= a)
 	{
 		cout << quant++ << "\t";
@@ -227,28 +227,28 @@ void main()
 
 #ifdef BOOL_TASK_1
 	int a;
-	cout << "Ââåäèòå öåëîå ÷èñëî: "; cin >> a;
-	(a >= 0) ? cout << true << " " << "Ïîëîæèòåëüíîå" : cout << false << " " << "Îòðèöàòåëüíîå";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†ÐµÐ»Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> a;
+	(a >= 0) ? cout << true << " " << "ÐŸÐ¾Ð»Ð¾Ð¶Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð¾Ðµ" : cout << false << " " << "ÐžÑ‚Ñ€Ð¸Ñ†Ð°Ñ‚ÐµÐ»ÑŒÐ½Ð¾Ðµ";
 
 #endif // BOOL_TASK_1
 
 #ifdef B00L_TASK_2
 	int a;
-	cout << "Ââåäèòå öåëîå ÷èñëî: "; cin >> a;
-	(a % 2 != 0) ? cout << true << " " << "÷åòíîå" : cout << false << " " << "íå÷åòíîå";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†ÐµÐ»Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> a;
+	(a % 2 != 0) ? cout << true << " " << "Ñ‡ÐµÑ‚Ð½Ð¾Ðµ" : cout << false << " " << "Ð½ÐµÑ‡ÐµÑ‚Ð½Ð¾Ðµ";
 
 #endif // B00L_TASK_2
 
 #ifdef BOOL_TASK_3
 	int a;
-	cout << "Ââåäèòå öåëîå ÷èñëî: "; cin >> a;
-	(a % 2 == 0) ? cout << true << " " << "÷åòíîå" : cout << false << " " << "íå÷åòíîå";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†ÐµÐ»Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> a;
+	(a % 2 == 0) ? cout << true << " " << "Ñ‡ÐµÑ‚Ð½Ð¾Ðµ" : cout << false << " " << "Ð½ÐµÑ‡ÐµÑ‚Ð½Ð¾Ðµ";
 
 #endif // BOOL_TASK_3
 
 #ifdef BOOL_TASK_4
 	int A, B;
-	cout << "Ââåäèòå äâà öåëûõ ÷èñëà äëÿ ñðàâíåíèÿ: " << endl; cin >> A; cin >> B;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð²Ð° Ñ†ÐµÐ»Ñ‹Ñ… Ñ‡Ð¸ÑÐ»Ð° Ð´Ð»Ñ ÑÑ€Ð°Ð²Ð½ÐµÐ½Ð¸Ñ: " << endl; cin >> A; cin >> B;
 	(A > 2 && B <= 3) ? cout << true : cout << false;
 
 #endif // BOOL_TASK_4
@@ -256,14 +256,14 @@ void main()
 #ifdef BOOL_TASK_5
 
 	int A, B;
-	cout << "Ââåäèòå äâà ÷èñëà äëÿ ñðàâíåíèÿ:A >= 0 || B < -2 " << endl; cin >> A; cin >> B;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð²Ð° Ñ‡Ð¸ÑÐ»Ð° Ð´Ð»Ñ ÑÑ€Ð°Ð²Ð½ÐµÐ½Ð¸Ñ:A >= 0 || B < -2 " << endl; cin >> A; cin >> B;
 	(A >= 0 || B < -2) ? cout << true : cout << false;
 
 #endif // BOOL_TASK_5
 
 #ifdef IF_TASK_1
 	int a;
-	cout << "Ââåäèòå öåëîå ÷èñëî: "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†ÐµÐ»Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> a;
 	if (a > 0)
 	{
 		int res = a - 8; cout << res;
@@ -278,7 +278,7 @@ void main()
 #ifdef IF_TASK_2
 
 	int a, res = 0;
-	cout << "Ââåäèòå öåëîå ÷èñëî: "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†ÐµÐ»Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> a;
 	if (a > 0)
 	{
 		int res = a - 8; cout << res;
@@ -292,7 +292,7 @@ void main()
 #ifdef IF_TASK_3
 
 	int a, res = 0;
-	cout << "Ââåäèòå öåëîå ÷èñëî: "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†ÐµÐ»Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> a;
 	if (a > 0)
 	{
 		res = a - 8; cout << res;
@@ -309,7 +309,7 @@ void main()
 
 #ifdef IF_TASK_4
 	int a, b, c, res = 0;
-	cout << "Ââåäèòå òðè öåëûõ ÷èñëà: "; cin >> a >> b >> c;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚Ñ€Ð¸ Ñ†ÐµÐ»Ñ‹Ñ… Ñ‡Ð¸ÑÐ»Ð°: "; cin >> a >> b >> c;
 	if (a > 0)
 	{
 		res += 1;
@@ -322,40 +322,40 @@ void main()
 	{
 		res += 1;
 	}
-	cout << "Êîëè÷åñòâî ïîëîæèòåëüíûõ ÷èñåë: " << res;
+	cout << "ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð¿Ð¾Ð»Ð¾Ð¶Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ñ… Ñ‡Ð¸ÑÐµÐ»: " << res;
 #endif // IF_TASK_4
 
 #ifdef IF_TASK_5
 	int a, b, c, res = 0, result = 0;
-	cout << "Ââåäèòå òðè öåëûõ ÷èñëà: "; cin >> a >> b >> c;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚Ñ€Ð¸ Ñ†ÐµÐ»Ñ‹Ñ… Ñ‡Ð¸ÑÐ»Ð°: "; cin >> a >> b >> c;
 	(a > 0) ? res += 1 : result += 1;
 	(b > 0) ? res += 1 : result += 1;
 	(c > 0) ? res += 1 : result += 1;
-	cout << "Ïîëîæèòåëüíûõ ÷èñåë: " << res << endl;
-	cout << "Îòðèöaòåëüíûõ ÷èñåë: " << result << endl;
+	cout << "ÐŸÐ¾Ð»Ð¾Ð¶Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ñ… Ñ‡Ð¸ÑÐµÐ»: " << res << endl;
+	cout << "ÐžÑ‚Ñ€Ð¸Ñ†aÑ‚ÐµÐ»ÑŒÐ½Ñ‹Ñ… Ñ‡Ð¸ÑÐµÐ»: " << result << endl;
 #endif // IF_TASK_5
 
 #ifdef IF_TASK_6
 	int a, b;
-	cout << "Ââåäèòå äâà ÷èñëà: "; cin >> a >> b;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð²Ð° Ñ‡Ð¸ÑÐ»Ð°: "; cin >> a >> b;
 	(a > b) ? cout << a : cout << b;
 #endif // IF_TASK_6
 
 #ifdef IF_TASK_7
 	int a, b;
-	cout << "Ââåäèòå äâà ÷èñëà: "; cin >> a >> b;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð²Ð° Ñ‡Ð¸ÑÐ»Ð°: "; cin >> a >> b;
 	(a < b) ? cout << 1 : cout << 2;
 #endif // IF_TASK_7
 
 #ifdef IF_TASK_8
 	int a, b;
-	cout << "Ââåäèòå äâà ÷èñëà: "; cin >> a >> b;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð²Ð° Ñ‡Ð¸ÑÐ»Ð°: "; cin >> a >> b;
 	(a > b) ? cout << a << " " << b : cout << b << " " << a;
 #endif // IF_TASK_8
 
 #ifdef IF_TASK_9
 	double a, b;
-	cout << "Ââåäèòå äâà äðîáíûõ ÷èñëà: " << endl; cin >> a; cin >> b;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð²Ð° Ð´Ñ€Ð¾Ð±Ð½Ñ‹Ñ… Ñ‡Ð¸ÑÐ»Ð°: " << endl; cin >> a; cin >> b;
 	if (a < b)
 	{
 		cout << a << " " << b;
@@ -370,7 +370,7 @@ void main()
 #ifdef IF_TASK_10
 
 	int a, b;
-	cout << "Ââåäèòå äâà ÷èñëà : " << endl; cin >> a; cin >> b;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð²Ð° Ñ‡Ð¸ÑÐ»Ð° : " << endl; cin >> a; cin >> b;
 	if (a != b)
 	{
 		a = b = a + b;
@@ -384,7 +384,7 @@ void main()
 
 #ifdef IF_TASK_11
 	int a, b;
-	cout << "Ââåäèòå äâà ÷èñëà: " << endl; cin >> a >> b;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð²Ð° Ñ‡Ð¸ÑÐ»Ð°: " << endl; cin >> a >> b;
 	if (a != b && a > b)
 	{
 		b = a; cout << a << " " << b;
@@ -401,7 +401,7 @@ void main()
 
 #ifdef IF_TASK_12
 	int a, b, c;
-	cout << "Ââåäèòe òðè ÷èñëà: " << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚e Ñ‚Ñ€Ð¸ Ñ‡Ð¸ÑÐ»Ð°: " << endl;
 	cin >> a >> b >> c;
 	if (a < b && a < c)
 	{
@@ -419,7 +419,7 @@ void main()
 
 #ifdef IF_TASK_13
 	int a, b, c;
-	cout << "Ââåäèòe òðè ÷èñëà: " << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚e Ñ‚Ñ€Ð¸ Ñ‡Ð¸ÑÐ»Ð°: " << endl;
 	cin >> a >> b >> c;
 	if (a < b && b < c)
 	{
@@ -437,7 +437,7 @@ void main()
 
 #ifdef IF_TASK_14
 	int a, b, c, max = 0, min = 0;
-	cout << "Ââåäèòe òðè ÷èñëà: " << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚e Ñ‚Ñ€Ð¸ Ñ‡Ð¸ÑÐ»Ð°: " << endl;
 	cin >> a >> b >> c;
 	if (a < b && a < c)min = a;
 	else if (b < a && b < c)min = b;
@@ -447,13 +447,13 @@ void main()
 	else if (b > a && b > c)max = b;
 	else max = c;
 
-	cout << "íàèìåíüøåå: " << min << " " << "íàèáîëüøåå: " << max;
+	cout << "Ð½Ð°Ð¸Ð¼ÐµÐ½ÑŒÑˆÐµÐµ: " << min << " " << "Ð½Ð°Ð¸Ð±Ð¾Ð»ÑŒÑˆÐµÐµ: " << max;
 
 #endif // IF_TASK_14
 
 #ifdef IF_TASK_16
 	double a, b, c;
-	cout << "Ââåäèòå òðè ÷èñëà: " << endl; cin >> a >> b >> c;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚Ñ€Ð¸ Ñ‡Ð¸ÑÐ»Ð°: " << endl; cin >> a >> b >> c;
 	if ((a <= b) && (b <= c))
 	{
 		a *= 2; b *= 2; c *= 2;
@@ -471,7 +471,7 @@ void main()
 #ifdef IF_TASK_17
 
 	double a, b, c;
-	cout << "Ââåäèòå òðè ÷èñëà: " << endl; cin >> a >> b >> c;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚Ñ€Ð¸ Ñ‡Ð¸ÑÐ»Ð°: " << endl; cin >> a >> b >> c;
 	if (((a <= b) && (b <= c)) || ((a >= b) && (b >= c)))
 	{
 		a *= 2; b *= 2; c *= 2;
@@ -486,18 +486,18 @@ void main()
 
 #ifdef IF_TASK_18
 	int a, b, c;
-	cout << "Ââåäèòå òðè ÷èñëà: " << endl; cin >> a >> b >> c;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚Ñ€Ð¸ Ñ‡Ð¸ÑÐ»Ð°: " << endl; cin >> a >> b >> c;
 	if (b == c)
 	{
-		cout << a << " ¹" << 1 << endl;
+		cout << a << " â„–" << 1 << endl;
 	}
 	else if (c == a)
 	{
-		cout << b << " ¹" << 2 << endl;
+		cout << b << " â„–" << 2 << endl;
 	}
 	else if (b == a)
 	{
-		cout << c << " ¹" << 3 << endl;
+		cout << c << " â„–" << 3 << endl;
 	}
 	/*else if(a == b == c)
 	{
@@ -509,45 +509,45 @@ void main()
 
 #ifdef IF_TASK_19
 	int a, b, c, d;
-	cout << "Ââåäèòå ÷åòûðå öåëûõ ÷èñëà: " << endl; cin >> a; cin >> b; cin >> c; cin >> d;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡ÐµÑ‚Ñ‹Ñ€Ðµ Ñ†ÐµÐ»Ñ‹Ñ… Ñ‡Ð¸ÑÐ»Ð°: " << endl; cin >> a; cin >> b; cin >> c; cin >> d;
 	if (a != b && a != c && a != d)
 	{
-		cout << "Îòëè÷íîå 1 ÷èñëî" << endl;
+		cout << "ÐžÑ‚Ð»Ð¸Ñ‡Ð½Ð¾Ðµ 1 Ñ‡Ð¸ÑÐ»Ð¾" << endl;
 	}
 	else if (b != a && b != d && b != c)
 	{
-		cout << "Îòëè÷íîå 2 ÷èñëî" << endl;
+		cout << "ÐžÑ‚Ð»Ð¸Ñ‡Ð½Ð¾Ðµ 2 Ñ‡Ð¸ÑÐ»Ð¾" << endl;
 	}
 	else if (c != a && c != b && c != d)
 	{
-		cout << "Îòëè÷íîå 3 ÷èñëî" << endl;
+		cout << "ÐžÑ‚Ð»Ð¸Ñ‡Ð½Ð¾Ðµ 3 Ñ‡Ð¸ÑÐ»Ð¾" << endl;
 	}
 	else
 	{
-		cout << "Îòëè÷íîå 4 ÷èñëî" << endl;
+		cout << "ÐžÑ‚Ð»Ð¸Ñ‡Ð½Ð¾Ðµ 4 Ñ‡Ð¸ÑÐ»Ð¾" << endl;
 	}
 #endif // IF_TASK_19
 
 #ifdef IF_TASK_20
 
 	int a, b, c, n = 0;
-	cout << "Ââåäèòå òðè òî÷êè íà ÷èñëîâîé îñè: " << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚Ñ€Ð¸ Ñ‚Ð¾Ñ‡ÐºÐ¸ Ð½Ð° Ñ‡Ð¸ÑÐ»Ð¾Ð²Ð¾Ð¹ Ð¾ÑÐ¸: " << endl;
 	cin >> a; cin >> b; cin >> c;
 	if (b < c)
 	{
 		n = b - a;
-		cout << "Òî÷êà b áëèæå ê òî÷êå a íà: " << n << endl;
+		cout << "Ð¢Ð¾Ñ‡ÐºÐ° b Ð±Ð»Ð¸Ð¶Ðµ Ðº Ñ‚Ð¾Ñ‡ÐºÐµ a Ð½Ð°: " << n << endl;
 	}
 	else if (c < b)
 	{
 		n = c - a;
-		cout << "Òî÷êà c áëèæå ê òî÷êå a íà: " << n << endl;
+		cout << "Ð¢Ð¾Ñ‡ÐºÐ° c Ð±Ð»Ð¸Ð¶Ðµ Ðº Ñ‚Ð¾Ñ‡ÐºÐµ a Ð½Ð°: " << n << endl;
 	}
 #endif // IF_TASK_20
 
 #ifdef CASE_1
 	char a;
-	cout << "Ââåäèòå ÷èñëî îò 1 äî 7: "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð¾Ñ‚ 1 Ð´Ð¾ 7: "; cin >> a;
 	switch (a)
 	{
 	case '1':cout << "Monday";    break;
@@ -563,35 +563,35 @@ void main()
 #ifdef CASE_2
 
 	char a = ' ';
-	cout << "Ââåäèòå ÷èñëî îò 1 äî 5: "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð¾Ñ‚ 1 Ð´Ð¾ 5: "; cin >> a;
 	switch (a)
 	{
-	case'1':cout << "Ïëîõî:";               break;
-	case'2':cout << "Íåóäîâëåòâîðèòåëüíî:"; break;
-	case'3':cout << "Óäîâëåòâîðèòåëüíî:";   break;
-	case'4':cout << "õîðîøî:";              break;
-	case'5':cout << "Îòëè÷íî:";             break;
-	default: cout << "Îøèáêà";
+	case'1':cout << "ÐŸÐ»Ð¾Ñ…Ð¾:";               break;
+	case'2':cout << "ÐÐµÑƒÐ´Ð¾Ð²Ð»ÐµÑ‚Ð²Ð¾Ñ€Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð¾:"; break;
+	case'3':cout << "Ð£Ð´Ð¾Ð²Ð»ÐµÑ‚Ð²Ð¾Ñ€Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð¾:";   break;
+	case'4':cout << "Ñ…Ð¾Ñ€Ð¾ÑˆÐ¾:";              break;
+	case'5':cout << "ÐžÑ‚Ð»Ð¸Ñ‡Ð½Ð¾:";             break;
+	default: cout << "ÐžÑˆÐ¸Ð±ÐºÐ°";
 	}
 #endif // CASE_2
 
 #ifdef CASE_3
 	char a = ' ';
-	cout << " Ââåäèòå ÷èñëî îò 1 äî 12: "; cin >> a;
+	cout << " Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð¾Ñ‚ 1 Ð´Ð¾ 12: "; cin >> a;
 	switch (a)
 	{
-	case '1':cout << "çèìà";   break;
-	case '2':cout << "çèìà";   break;
-	case '3':cout << "âåñíà";  break;
-	case '4':cout << "âåñíà";  break;
-	case '5':cout << "âåñíà";  break;
-	case '6':cout << "ëåòî";   break;
-	case '7':cout << "ëåòî";   break;
-	case '8':cout << "ëåòî";   break;
-	case '9':cout << "îñåíü";  break;
-	case '10':cout << "îñåíü"; break;
-	case '11':cout << "îñåíü"; break;
-	case '12':cout << "îñåíü"; break;
+	case '1':cout << "Ð·Ð¸Ð¼Ð°";   break;
+	case '2':cout << "Ð·Ð¸Ð¼Ð°";   break;
+	case '3':cout << "Ð²ÐµÑÐ½Ð°";  break;
+	case '4':cout << "Ð²ÐµÑÐ½Ð°";  break;
+	case '5':cout << "Ð²ÐµÑÐ½Ð°";  break;
+	case '6':cout << "Ð»ÐµÑ‚Ð¾";   break;
+	case '7':cout << "Ð»ÐµÑ‚Ð¾";   break;
+	case '8':cout << "Ð»ÐµÑ‚Ð¾";   break;
+	case '9':cout << "Ð¾ÑÐµÐ½ÑŒ";  break;
+	case '10':cout << "Ð¾ÑÐµÐ½ÑŒ"; break;
+	case '11':cout << "Ð¾ÑÐµÐ½ÑŒ"; break;
+	case '12':cout << "Ð¾ÑÐµÐ½ÑŒ"; break;
 
 	}
 
@@ -599,21 +599,21 @@ void main()
 
 #ifdef CASE_4
 	char a;
-	cout << "Ââåäèòå íîìåð ìåñÿöà,1-12:  "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð¼ÐµÑ€ Ð¼ÐµÑÑÑ†Ð°,1-12:  "; cin >> a;
 	switch (a)
 	{
-	case '1':cout << "ÿíâàðü 31ä";   break;
-	case '2':cout << "ôåâðàëü 28ä";  break;
-	case '3':cout << "ìàðò 31ä";     break;
-	case '4':cout << "àïðåëü 30ä";   break;
-	case '5':cout << "ìàé 31ä";      break;
-	case '6':cout << "èþíü 30ä";     break;
-	case '7':cout << "èþëü 31ä";     break;
-	case '8':cout << "àâãóñò 31ä";   break;
-	case '9':cout << "ñåíòÿáðü 30ä"; break;
-	case '10':cout << "îêòÿáðü 31ä";  break;
-	case '11':cout << "íîÿáðü 30ä";   break;
-	case '12':cout << "äåêàáðü 31ä";  break;
+	case '1':cout << "ÑÐ½Ð²Ð°Ñ€ÑŒ 31Ð´";   break;
+	case '2':cout << "Ñ„ÐµÐ²Ñ€Ð°Ð»ÑŒ 28Ð´";  break;
+	case '3':cout << "Ð¼Ð°Ñ€Ñ‚ 31Ð´";     break;
+	case '4':cout << "Ð°Ð¿Ñ€ÐµÐ»ÑŒ 30Ð´";   break;
+	case '5':cout << "Ð¼Ð°Ð¹ 31Ð´";      break;
+	case '6':cout << "Ð¸ÑŽÐ½ÑŒ 30Ð´";     break;
+	case '7':cout << "Ð¸ÑŽÐ»ÑŒ 31Ð´";     break;
+	case '8':cout << "Ð°Ð²Ð³ÑƒÑÑ‚ 31Ð´";   break;
+	case '9':cout << "ÑÐµÐ½Ñ‚ÑÐ±Ñ€ÑŒ 30Ð´"; break;
+	case '10':cout << "Ð¾ÐºÑ‚ÑÐ±Ñ€ÑŒ 31Ð´";  break;
+	case '11':cout << "Ð½Ð¾ÑÐ±Ñ€ÑŒ 30Ð´";   break;
+	case '12':cout << "Ð´ÐµÐºÐ°Ð±Ñ€ÑŒ 31Ð´";  break;
 
 	}
 
@@ -623,8 +623,8 @@ void main()
 
 	char n = ' ';
 	double a, b;
-	cout << "Ââåäèòå äâà ÷èñëà: " << endl; cin >> a >> b;
-	cout << "Ââåäèòå íîìåð äåéñòâèÿ: 1'+'  2'-'  3'*'  4'/'  "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð²Ð° Ñ‡Ð¸ÑÐ»Ð°: " << endl; cin >> a >> b;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð¼ÐµÑ€ Ð´ÐµÐ¹ÑÑ‚Ð²Ð¸Ñ: 1'+'  2'-'  3'*'  4'/'  "; cin >> n;
 
 	switch (n)
 	{
@@ -638,24 +638,24 @@ void main()
 #ifdef CASE_6
 	char n;
 	double l;
-	cout << "Ââåäèòå äëèííó îòðåçêà: "; cin >> l;
-	cout << "Ââåäèòå íîìåð åäèíèöû äëèíû: 1'äì' 2'êì' 3'ì' 4'ìì' 5'ñì'	";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð»Ð¸Ð½Ð½Ñƒ Ð¾Ñ‚Ñ€ÐµÐ·ÐºÐ°: "; cin >> l;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð¼ÐµÑ€ ÐµÐ´Ð¸Ð½Ð¸Ñ†Ñ‹ Ð´Ð»Ð¸Ð½Ñ‹: 1'Ð´Ð¼' 2'ÐºÐ¼' 3'Ð¼' 4'Ð¼Ð¼' 5'ÑÐ¼'	";
 	cin >> n;
 	switch (n)
 	{
-	case'1':cout << l / 10 << " " << "ì"; break;
-	case'2':cout << l * 1000 << " " << "ì"; break;
-	case'3':cout << l << " " << "ì"; break;
-	case'4':cout << l / 1000 << " " << "ì"; break;
-	case'5':cout << l / 100 << " " << "ì"; break;
+	case'1':cout << l / 10 << " " << "Ð¼"; break;
+	case'2':cout << l * 1000 << " " << "Ð¼"; break;
+	case'3':cout << l << " " << "Ð¼"; break;
+	case'4':cout << l / 1000 << " " << "Ð¼"; break;
+	case'5':cout << l / 100 << " " << "Ð¼"; break;
 	}
 #endif // CASE_6
 
 #ifdef FOR_W_1
 
 	int k, n, i = 0;
-	cout << "ââåäèòå ïåðâîå ÷èñëî: "; cin >> k;
-	cout << "ââåäèòå âòîðîå ÷èñëî: "; cin >> n;
+	cout << "Ð²Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿ÐµÑ€Ð²Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> k;
+	cout << "Ð²Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‚Ð¾Ñ€Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> n;
 	while (i < n)
 	{
 		++i;
@@ -665,9 +665,9 @@ void main()
 
 #ifdef FOR_1
 	int k, n;
-	cout << "Ââåäèòå äâà öåëûõ ÷èñëà: " << endl;
-	cout << "Ââåäèòå ïåðâîå ÷èñëî:	"; cin >> k;
-	cout << "Ââåäèòå âòîðîå ÷èñëî:	"; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð²Ð° Ñ†ÐµÐ»Ñ‹Ñ… Ñ‡Ð¸ÑÐ»Ð°: " << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿ÐµÑ€Ð²Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾:	"; cin >> k;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‚Ð¾Ñ€Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾:	"; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		cout << k << " ";
@@ -677,32 +677,32 @@ void main()
 
 #ifdef FOR_2
 	int a, b, n = 0;
-	cout << "Ââåäèòå öåëûõ ÷èñëà (a<b):" << endl;
-	cout << "Ââåäèòå ïåðâîå ÷èñëî:  "; cin >> a;
-	cout << "Ââåäèòå âòîðîå  ÷èñëî:  "; cin >> b;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†ÐµÐ»Ñ‹Ñ… Ñ‡Ð¸ÑÐ»Ð° (a<b):" << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿ÐµÑ€Ð²Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾:  "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‚Ð¾Ñ€Ð¾Ðµ  Ñ‡Ð¸ÑÐ»Ð¾:  "; cin >> b;
 	for (int i = a; i <= b; ++i)
 
 		cout << i << " " << "\t";
-	n = b - a + 1;; cout << "êîëè÷åñòâî:  " << n;
+	n = b - a + 1;; cout << "ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾:  " << n;
 
 #endif // FOR_2
 
 #ifdef FOR_3
 	int a, b, n, i = 0;
-	cout << "Ââåäèòå öåëûõ ÷èñëà (a<b):" << endl;
-	cout << "Ââåäèòå ïåðâîå ÷èñëî:  "; cin >> a;
-	cout << "Ââåäèòå âòîðîå  ÷èñëî:  "; cin >> b;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†ÐµÐ»Ñ‹Ñ… Ñ‡Ð¸ÑÐ»Ð° (a<b):" << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿ÐµÑ€Ð²Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾:  "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‚Ð¾Ñ€Ð¾Ðµ  Ñ‡Ð¸ÑÐ»Ð¾:  "; cin >> b;
 
 	for (i = b - 1; i > a; --i)
 		cout << i << " " << "\t";
 	n = b - a - 1;
-	cout << "êîëè÷åñòâî:  " << n;
+	cout << "ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾:  " << n;
 #endif // FOR_3
 
 #ifdef FOR_4
 	double cost, weight, quant;
-	cout << "Ââåäèòå ñòîèìîñòü 1êã êîíôåò: "; cin >> cost;
-	cout << "Ââåäèòå êîëè÷åñòâî êã:  "; cin >> weight;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑ‚Ð¾Ð¸Ð¼Ð¾ÑÑ‚ÑŒ 1ÐºÐ³ ÐºÐ¾Ð½Ñ„ÐµÑ‚: "; cin >> cost;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÐºÐ³:  "; cin >> weight;
 	for (int i = 1; i <= weight; i++)
 		quant = cost * weight; cout << quant;
 
@@ -719,12 +719,12 @@ void main()
 #endif // FOR_4.1
 
 #ifdef FOR_5
-	double a; // öåíà  1 êã êîíôåò
+	double a; // Ñ†ÐµÐ½Ð°  1 ÐºÐ³ ÐºÐ¾Ð½Ñ„ÐµÑ‚
 	float i;
-	cout << "Ââåäèòå ñòîèìîñòü 1êã:  "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑ‚Ð¾Ð¸Ð¼Ð¾ÑÑ‚ÑŒ 1ÐºÐ³:  "; cin >> a;
 	for (i = 0.1; i < 1.1; i += 0.1)
 	{
-		cout << i << "êã = " << i * a << "\n";
+		cout << i << "ÐºÐ³ = " << i * a << "\n";
 	}
 
 #endif // FOR_5
@@ -732,18 +732,18 @@ void main()
 #ifdef FOR_6
 
 	double a, i;
-	cout << "Ââåäèòå ñòîèìîñòü 1êã:  "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑ‚Ð¾Ð¸Ð¼Ð¾ÑÑ‚ÑŒ 1ÐºÐ³:  "; cin >> a;
 	for (i = 1.2; i < 2; i += 0.2)
 	{
-		cout << i << "êã " << i * a << "\n";
+		cout << i << "ÐºÐ³ " << i * a << "\n";
 	}
 #endif // FOR_6
 
 #ifdef FOR_7
 	int a, b, sum, i; a = b = sum = i = 0;
-	cout << "Ââåäèòå äâà öåëûõ ÷èñëà: (a<b) " << endl;
-	cout << "Ââåäèòå ïåðâîå ÷èñëî: "; cin >> a;
-	cout << "Ââåäèòå âòîðîå ÷èñëî: "; cin >> b;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð²Ð° Ñ†ÐµÐ»Ñ‹Ñ… Ñ‡Ð¸ÑÐ»Ð°: (a<b) " << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿ÐµÑ€Ð²Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‚Ð¾Ñ€Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> b;
 	for (i = a; i <= b; i++)
 	{
 		sum += i;
@@ -754,8 +754,8 @@ void main()
 #ifdef FOR_8
 	int a, b, i, work = 1;
 	cout << " " << "a < b " << endl;
-	cout << "Ââåäèòå ïåðâîå ÷èñëî: "; cin >> a;
-	cout << "Ââåäèòå âòîðîå ÷èñëî: "; cin >> b;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿ÐµÑ€Ð²Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‚Ð¾Ñ€Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> b;
 	for (i = a; i <= b; ++i)
 	{
 		work *= i;
